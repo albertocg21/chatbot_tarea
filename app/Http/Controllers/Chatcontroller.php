@@ -32,7 +32,7 @@ class ChatController extends Controller
     */
     public function index()
     {
-        // ✏️ ESCRIBE AQUÍ TU CÓDIGO
+        // ESCRIBE AQUÍ TU CÓDIGO
 
     }
 

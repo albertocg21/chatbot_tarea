@@ -19,7 +19,7 @@ use App\Http\Controllers\ChatController;
 | https://laravel.com/docs/routing
 */
 
-// ✏️ ESCRIBE AQUÍ TU CÓDIGO — Ruta GET para mostrar el chat
+// ESCRIBE AQUÍ TU CÓDIGO — Ruta GET para mostrar el chat
 
 
-// ✏️ ESCRIBE AQUÍ TU CÓDIGO — Ruta POST para enviar el mensaje a Gemini
+// ESCRIBE AQUÍ TU CÓDIGO — Ruta POST para enviar el mensaje a Gemini
