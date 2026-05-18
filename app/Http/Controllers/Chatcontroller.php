@@ -55,7 +55,7 @@ class ChatController extends Controller
     |     Pista: env('NOMBRE_VARIABLE');
     |
     |  3. Construir la URL del endpoint de Gemini:
-    |     https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=TU_KEY
+    |     https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=TU_KEY
     |
     |  4. Recuperar el historial previo y añadir el nuevo mensaje del usuario
     |     con el formato que necesita Gemini:
@@ -77,28 +77,28 @@ class ChatController extends Controller
     */
     public function enviar(Request $request)
     {
-        // ✏️ PASO 1 — Validar los campos de entrada
+        // PASO 1 — Validar los campos de entrada
 
 
-        // ✏️ PASO 2 y 3 — Leer API Key y construir la URL
+        // PASO 2 y 3 — Leer API Key y construir la URL
 
 
-        // ✏️ PASO 4 — Recuperar el historial y añadir el mensaje del usuario
+        // PASO 4 — Recuperar el historial y añadir el mensaje del usuario
 
 
-        // ✏️ PASO 5 — Llamar a la API de Gemini con Http::post()
+        // PASO 5 — Llamar a la API de Gemini con Http::post()
 
 
-        // ✏️ PASO 6 — Comprobar si la petición falló
+        // PASO 6 — Comprobar si la petición falló
 
 
-        // ✏️ PASO 7 — Extraer el texto de la respuesta
+        // PASO 7 — Extraer el texto de la respuesta
 
 
-        // ✏️ PASO 8 — Añadir la respuesta del bot al historial
+        // PASO 8 — Añadir la respuesta del bot al historial
 
 
-        // ✏️ PASO 9 — Devolver JSON con respuesta e historial
+        // PASO 9 — Devolver JSON con respuesta e historial
 
     }
 }
